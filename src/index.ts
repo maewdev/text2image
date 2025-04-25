@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "sexy girl with sword",
+      prompt: "realistic of sexy girl with sword",
     };
 
     const response = await env.AI.run(
