@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "realistic of sexy girl with sword",
+      prompt: "a young woman sitting at an office desk, holding a pen and writing on a document. She  wearing a Thai university uniform white button-up blouse with black  sleeves . The setting is a modern, well-lit office with a computer monitor in the background, some office supplies like colorful pens placed behind her, and a professional yet relaxed atmosphere.",
     };
 
     const response = await env.AI.run(
