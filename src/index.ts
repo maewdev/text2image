@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "Masterpiece, 8k.uhd., realistic, high resolution, one girl ,17 years old, full body, not wearing brasia ,not wearing bikini,standing in the beach,sunny day",
+      prompt: " one girl ,17 years old, full body, ,taking of her  bikini and hold in a hand ,standing in the beach,sunny day",
     };
 
     const response = await env.AI.run(
