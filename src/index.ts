@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: " one girl ,17 years old, full body, ,taking of her  bikini and hold in a hand ,standing in the beach,sunny day",
+      prompt: " A beautiful woman with fair skin and curvy body wearing a floral micro bikini, standing confidently by turquoise tropical water, her hair elegantly tied up with a clip, natural makeup, soft lighting, sharp focus, realistic details, tropical limestone cliff background, high resolution, DSLR photo style",
     };
 
     const response = await env.AI.run(
