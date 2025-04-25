@@ -6,7 +6,7 @@ export default {
 
     const response = await env.AI.run(
       //"@cf/stabilityai/stable-diffusion-xl-base-1.0",
-      "@cf/black-forest-labs/flux-1-schnell",
+      "@cf/stabilityai/stable-diffusion-xl-base-1.0",
       inputs,
     );
 
