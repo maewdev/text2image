@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "a young woman sitting at an office desk, holding a pen and writing on a document. She  wearing a Thai university uniform white button-up blouse with black  sleeves . The setting is a modern, well-lit office with a computer monitor in the background, some office supplies like colorful pens placed behind her, and a professional yet relaxed atmosphere.",
+      prompt: "Masterpiece, 8k.uhd., realistic, high resolution, one girl ,17 years old, full body, not wearing brasia ,not wearing bikini,standing in the beach,sunny day",
     };
 
     const response = await env.AI.run(
