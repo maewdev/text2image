@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: " A beautiful woman with fair skin and curvy body wearing a floral micro bikini, standing confidently by turquoise tropical water, her hair elegantly tied up with a clip, natural makeup, soft lighting, sharp focus, realistic details, tropical limestone cliff background, high resolution, DSLR photo style",
+      prompt: "A japanese pretty girl with a large breasts, tattoo,wearing red bikini ,red panis, dace on the sounder pickup and people look her around,hand touch her and closer,in night,in music festival take a photo close up",
     };
 
     const response = await env.AI.run(
